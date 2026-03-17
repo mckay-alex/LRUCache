@@ -7,9 +7,8 @@ The LRU Cache is a data structure that:
 - Quick access and updates
 
 This implementation combines:
-- **Hash Map (unordered_map)** O(1) lookup
-- **Doubly Linked List** O(1) insertion/removal
-- both get and put operations have O(1) time complexity
+- Hash Map (unordered_map) O(1) lookup
+- Doubly Linked List O(1) insertion/removal
 
 How it functions:
 - The hash map stores key for fast access
