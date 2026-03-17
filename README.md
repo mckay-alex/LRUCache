@@ -3,8 +3,8 @@ LRUCache implementation in C++
 
 The LRU Cache is a data structure that:
 - Stores fixed number of key-value pairs
-- Removes *least recently used* item when capacity exceeded
-- Quick access and updates
+- Removes least recently used item when capacity exceeded
+- Allows quick access and updates
 
 This implementation combines:
 - Hash Map (unordered_map) O(1) lookup
